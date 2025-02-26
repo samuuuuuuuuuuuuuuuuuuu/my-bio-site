@@ -1,0 +1,36 @@
+body {
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background: #1a2980;
+background: -webkit-linear-gradient(
+    to right,
+    #26d0ce,
+    #1a2980
+); /* Chrome 10-25, safari 5.1-6 */
+background: linear-gradient(
+    to right,
+    #26d0ce
+    #1a2980
+); /* W3C, IE 10+/ Edge, FireFox 16+, Opera 12+, Safari 7+ */
+}
+h1 {
+    font-size: 6em;
+}
+h2 {
+   font-size: 7em; 
+}
+h1,
+h2 {
+    margin: 0;
+    color: #fff;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em; 
+  max-width: 50%;
+  text-align: center; 
+  color: #fff;
+}
